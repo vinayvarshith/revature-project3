@@ -36,3 +36,13 @@ ng serve --open //for running project on server
 ``` npm install --save sweetalert2 ``` <br>
 ``` npm install -g @angular/cli  ``` <br>
 ``` npm install matsnackbar  ```
+
+## Git commands
+  - for creating a branch and shifting to it directly
+  $git checkout -b mybranchname
+  - command for shifting back to master
+  $git checkout main
+  -command for pushing the changes to branch
+   $git push origin branch name
+  -command for merging the changes made in branches to the main(assume main as master)
+  $git merge main
